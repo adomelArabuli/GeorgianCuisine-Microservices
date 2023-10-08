@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{18DB6169-91F6-419F-BA2C-03C75A52FFB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeorgianCuisine.Web", "GeorgianCuisine.Web\GeorgianCuisine.Web.csproj", "{6EFB6810-A586-4BDB-ABEC-4E40A60466D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F17B122E-8CD6-4C3E-8A0F-8AC1FFF156BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeorgianCuisine.Services.ProductApi", "GeorgianCuisine.Services.ProductApi\GeorgianCuisine.Services.ProductApi.csproj", "{56D6A8DE-EF96-4610-97F0-9FC9D2A81E42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeorgianCuisine.Services.Identity", "GeorgianCuisine.Services.Identity\GeorgianCuisine.Services.Identity.csproj", "{D428B8FE-5775-49CB-A163-6B0B053B6FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeorgianCuisine.Services.ShoppingCartApi", "GeorgianCuisine.Services.ShoppingCartApi\GeorgianCuisine.Services.ShoppingCartApi.csproj", "{F01A38BA-2DC5-4B85-AC24-76265696F8C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EFB6810-A586-4BDB-ABEC-4E40A60466D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFB6810-A586-4BDB-ABEC-4E40A60466D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFB6810-A586-4BDB-ABEC-4E40A60466D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFB6810-A586-4BDB-ABEC-4E40A60466D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D6A8DE-EF96-4610-97F0-9FC9D2A81E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D6A8DE-EF96-4610-97F0-9FC9D2A81E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D6A8DE-EF96-4610-97F0-9FC9D2A81E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D6A8DE-EF96-4610-97F0-9FC9D2A81E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D428B8FE-5775-49CB-A163-6B0B053B6FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D428B8FE-5775-49CB-A163-6B0B053B6FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D428B8FE-5775-49CB-A163-6B0B053B6FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D428B8FE-5775-49CB-A163-6B0B053B6FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01A38BA-2DC5-4B85-AC24-76265696F8C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01A38BA-2DC5-4B85-AC24-76265696F8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01A38BA-2DC5-4B85-AC24-76265696F8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01A38BA-2DC5-4B85-AC24-76265696F8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EFB6810-A586-4BDB-ABEC-4E40A60466D3} = {18DB6169-91F6-419F-BA2C-03C75A52FFB2}
+		{56D6A8DE-EF96-4610-97F0-9FC9D2A81E42} = {F17B122E-8CD6-4C3E-8A0F-8AC1FFF156BB}
+		{D428B8FE-5775-49CB-A163-6B0B053B6FAC} = {F17B122E-8CD6-4C3E-8A0F-8AC1FFF156BB}
+		{F01A38BA-2DC5-4B85-AC24-76265696F8C5} = {F17B122E-8CD6-4C3E-8A0F-8AC1FFF156BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8DFBD7D-B230-47C8-B8E8-1795C577F458}
+	EndGlobalSection
+EndGlobal
